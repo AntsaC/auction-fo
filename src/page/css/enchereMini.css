@@ -1,0 +1,85 @@
+.ivelany{
+      box-sizing: border-box;
+      text-align: center;
+      border-radius:10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding-top: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: .4s;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 2px;
+      padding: 5%;
+      margin-bottom: 15px;
+  }
+.ivelany:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: translate(0px, -8px);
+    transition: .6s;
+    }
+.categorie{
+    padding:5px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 100%;
+    color: #222f3e;
+    font-weight:bolder;
+    margin: 0;
+}
+.Header-H1{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    color:#222f3e;    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 2px;
+}
+.profile-ivelany{
+    margin:0 auto;
+}
+.centre{
+    text-align: center;
+}
+.photos{
+    width: 100%;
+    height: auto;
+    border-radius:10px;
+    z-index: 2;
+}
+.photos-carousel{
+    width: 75%;
+    margin:0 auto;
+}
+.argent{
+    font-size: 25px;
+    font-weight:bolder;
+    color: #222f3e;
+    margin:0;
+    display: flex;
+}
+.icon-prix{
+    border-radius: 50%;
+    height: auto;
+    width: 14%;  
+}
+.temps{
+    padding:5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: lowercase;
+    color: #dd2635;
+    font-size: 20px;
+    text-align: center;
+}
+
+.temp{
+    padding:5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: lowercase;
+    color: #dd2635;
+    font-size: 20px;
+    text-align: left;
+}
+.button-rencherir{
+   margin-top: 5px;
+}

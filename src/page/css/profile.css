@@ -1,0 +1,17 @@
+.div-name-User{
+    margin-left: 1px;
+}
+.profile-mere{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.avatar{
+    border-radius: 50%;
+    height: auto;
+    width: 10%;  
+}
+.username{
+    margin-left: 5px;
+    font-weight:bolder;
+}

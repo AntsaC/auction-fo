@@ -1,0 +1,32 @@
+.detailG{
+    margin-top:5%;
+
+}
+.detailCat{
+    margin-top:6%;
+    text-align: left;
+}
+.detailDesc{
+    margin-top:3%;
+    font-size: 80%;
+    text-align: left;
+    color:gray;
+}
+.detailPrix{
+    margin-top:10%;
+    margin-bottom: 5%;
+    font-size: 50%;
+}
+.icon-prix2{
+    border-radius: 50%;
+    height: auto;
+    width: 10%;  
+}
+.temp{
+    padding:5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #dd2635;
+    font-size: 100%;
+    text-align: left; 
+}

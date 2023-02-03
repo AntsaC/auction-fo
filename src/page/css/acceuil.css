@@ -1,0 +1,89 @@
+.myApp {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #000133;
+}
+.header-profile{
+  float: right;
+  margin-right: 1%;
+  padding-bottom:20px;
+}
+
+.icon {
+  float: left;
+  margin-left: 2%;
+  border:solid #d8dcd6 1px;
+  padding: 2px;
+  border-radius: 10%;
+  font-weight: bold;
+}
+
+.header{
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+  height: 50px;
+  z-index: 6;
+}
+.header > .header-header {
+  display: inline;
+}
+
+.header > .header-header > .header-title {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  margin-left:1%;
+  float:left;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:900;
+}
+.header-title:hover{
+  box-shadow: 0 0 11px #000133;
+  }
+
+
+.header {
+  top: 0;
+}
+
+.footer {
+  bottom: 0;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  margin-top: 50px;;
+}
+
+
+.drawer {
+  background: #d8dcd6;
+  width: 0px;
+  position: fixed;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.opened {
+  width: 224px;
+}
+
+.openedmain {
+  margin-left:224px ;
+}
+
+.main {
+  flex: 1;
+  background: #f7f5f5;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 2px;
+}
